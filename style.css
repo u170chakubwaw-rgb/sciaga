@@ -1,0 +1,123 @@
+html,
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color-scheme: light;
+}
+
+.subject-nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subject-nav a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.subject-nav a.active {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+.paper {
+  padding: 20px;
+}
+
+.paper-header {
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.header-top {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.main-title h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.student-name {
+  text-align: right;
+  font-style: italic;
+  color: #555;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #eee;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.empty-notes {
+  text-align: center;
+  color: #888;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.data-table th {
+  background-color: #eee;
+}
+
+.header-row {
+  background: #eee;
+  border-bottom: 2px solid #000;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
