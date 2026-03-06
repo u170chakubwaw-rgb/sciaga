@@ -1,11 +1,10 @@
 html,
 body {
-  background-color: white;
+  background-color: rgb(98, 100, 82);
   color: black;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  color-scheme: light;
 }
 
 .subject-nav {
@@ -16,21 +15,32 @@ body {
 .subject-nav a {
   text-decoration: none;
   color: black;
-  background-color: white;
+  background-color: #a0a09a;
   padding: 10px 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 20px;
   margin: 0 5px;
   display: inline-block;
 }
 
+.subject-nav a:hover {
+  transition: 300ms;
+  background-color: #b0b0aa;
+}
+
 .subject-nav a.active {
-  background-color: lightblue;
+  background-color: #60605a;
+  color: white;
   font-weight: bold;
+  border-color: #444;
 }
 
 .paper {
-  padding: 20px;
+  padding: 40px;
+  background-color: #a8a8a0;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .paper-header {
@@ -50,38 +60,26 @@ body {
   margin: 0;
 }
 
-.student-name {
+.Kuba-name {
   text-align: right;
   font-style: italic;
   color: #555;
 }
 
 h2 {
-  color: #333;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 5px;
+  color: #111;
 }
-
 p {
   line-height: 1.5;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 ul li {
   margin-bottom: 5px;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-td,
-th {
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-th {
-  background-color: #eee;
 }
 
 .two-columns {
@@ -93,28 +91,6 @@ th {
 .empty-notes {
   text-align: center;
   color: #888;
-}
-
-.data-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px;
-}
-
-.data-table th,
-.data-table td {
-  padding: 8px;
-  text-align: left;
-  border: 1px solid #ccc;
-}
-
-.data-table th {
-  background-color: #eee;
-}
-
-.header-row {
-  background: #eee;
-  border-bottom: 2px solid #000;
 }
 
 h1 {
